@@ -1,0 +1,46 @@
+# === Dataset (licensed by Spotify/AICrowd — do not redistribute) ===
+spotify_million_playlist_dataset/
+spotify_million_playlist_dataset_challenge/
+
+# === Large generated outputs (reproducible by running the pipeline) ===
+output/parquet/
+output/models/
+output/submission.csv
+output/submission.csv.gz
+
+# === Sample data files (may contain licensed content) ===
+mpd.slice.sample.json
+challenge_set_sample.json
+sample_sample_submission.csv
+
+# === Copyrighted documents ===
+*.pdf
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# === Spark ===
+metastore_db/
+derby.log
+spark-warehouse/
+
+# === IDE / OS ===
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Other files ===
+resume_bullets_spotify_mpd.md
+gen_submit_logs.txt
+stage3_logs.txt
+stage4_logs.txt
+stage5_logs.txt
